@@ -1,0 +1,24 @@
+title: "Kunmo Kim"
+description: "High-speed SerDes • ADC-based receivers • Equalization"
+logo: /assets/logo.png    # (optional) put a logo file at assets/logo.png
+remote_theme: just-the-docs/just-the-docs
+color_scheme: nil          # or "dark", "light", or a custom scheme
+search_enabled: true
+aux_links:
+  "Google Scholar":
+    - "https://scholar.google.com/"
+  "LinkedIn":
+    - "https://www.linkedin.com/"
+  "GitHub":
+    - "https://github.com/yourusername"
+# Navigation order
+nav_external_links_new_tab: true
+permalink: pretty
+just_the_docs:
+  navigation_depth: 2
+  show_navbar: true
+  collections:
+    pages:
+      name: Pages
+      nav_exclude: false
+      permalink: "/:path/"
