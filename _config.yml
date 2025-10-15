@@ -1,6 +1,8 @@
 title: "Kunmo Kim"
 description: "High-speed SerDes • ADC-based receivers • Equalization"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 color_scheme: nil          # or "dark", "light", or a custom scheme
 search_enabled: false
 aux_links:
