@@ -2,7 +2,7 @@ title: "Kunmo Kim"
 description: "High-speed SerDes • ADC-based receivers • Equalization"
 theme: just-the-docs
 color_scheme: nil          # or "dark", "light", or a custom scheme
-search_enabled: true
+search_enabled: false
 aux_links:
   "Google Scholar":
     - "https://scholar.google.com/citations?user=Gjlk44MAAAAJ&hl=en"
@@ -18,5 +18,4 @@ just_the_docs:
     pages:
       name: Pages
       nav_exclude: false
-      output: true
       permalink: "/:path/"
