@@ -2,6 +2,8 @@
 layout: default
 title: Home
 nav_order: 1
+#nav_exclude: true
+permalink: /
 ---
 
 # Kunmo Kim
@@ -16,4 +18,4 @@ Focus: ADC-based SerDes, Nonlinear Equalization (SB-DFE/MLSE), Link Modeling and
 ## Quick Links
 - [Projects](/projects/)
 - [Publications](/publications/)
-- [Teardowns](.pages/)
+- [Teardowns](/teardowns/)

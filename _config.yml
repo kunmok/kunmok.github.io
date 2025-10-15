@@ -1,7 +1,6 @@
 title: "Kunmo Kim"
 description: "High-speed SerDes • ADC-based receivers • Equalization"
-logo: /assets/logo.png    # (optional) put a logo file at assets/logo.png
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 color_scheme: nil          # or "dark", "light", or a custom scheme
 search_enabled: true
 aux_links:
@@ -19,4 +18,5 @@ just_the_docs:
     pages:
       name: Pages
       nav_exclude: false
+      output: true
       permalink: "/:path/"
