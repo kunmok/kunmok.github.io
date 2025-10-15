@@ -6,11 +6,9 @@ color_scheme: nil          # or "dark", "light", or a custom scheme
 search_enabled: true
 aux_links:
   "Google Scholar":
-    - "https://scholar.google.com/"
-  "LinkedIn":
-    - "https://www.linkedin.com/"
+    - "https://scholar.google.com/citations?user=Gjlk44MAAAAJ&hl=en"
   "GitHub":
-    - "https://github.com/yourusername"
+    - "https://github.com/kunmok"
 # Navigation order
 nav_external_links_new_tab: true
 permalink: pretty
