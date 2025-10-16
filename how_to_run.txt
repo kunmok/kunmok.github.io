@@ -1,0 +1,4 @@
+For compile: 
+  hugo 
+  hugo server --ignoreCache --disableFastRender
+
