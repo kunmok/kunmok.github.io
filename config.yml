@@ -30,7 +30,7 @@ params:
     description: "I am an R&D Hardware Engineer in the Physical Lyaer Products (PLP) group at Broadcom (Irvine, CA), focusing on high-speed optical link transceiver circuit design."
     author: Name
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "October 2025"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -52,7 +52,7 @@ params:
     profileMode:
           enabled: true
           title: Kunmo Kim
-          subtitle: "Hi! I am an R&D Hardware Engineer in the Physical Layer Products (PLP) group at Broadcom (Irvine, CA), specializing in high-speed optical transceiver circuit design. <br>My research interests include digital communication theory, nonlinear equalization, and wireline link modeling and analysis. <br>I received my Ph.D. in Electrical Engineering from University of California, Berkeley in 2025."
+          subtitle: "Hi! I am an R&D Hardware Engineer in the Physical Layer Products (PLP) group at Broadcom (Irvine, CA), specializing in high-speed optical transceiver circuit design. <br><br>My research interests include digital communication theory, nonlinear equalization, and wireline link modeling and analysis. <br><br>I received my Ph.D. in Electrical Engineering from University of California, Berkeley in 2025."
           imageUrl: "kunmo.png"
           imageWidth: 160
           imageHeight: 160

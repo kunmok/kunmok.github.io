@@ -4,8 +4,8 @@ weight: 2
 #date: 2021-10-01
 tags: ["RTL"]
 author: ["Kunmo Kim and Sunjin Choi"]
-description: "RTL used for the digital backend implementation of a 128 GS/s ADC-based SerDes Rx" 
-summary: "RTL used for the digital backend implementation of a 128 GS/s ADC-based SerDes Rx" 
+description: "RTL used for the digital backend implementation of the 128 GS/s ADC-based SerDes Rx" 
+summary: "RTL used for the digital backend implementation of the 128 GS/s ADC-based SerDes Rx" 
 cover:
     image: "snapshot.png"
     alt: "Verdi waveform dump"
@@ -20,7 +20,7 @@ cover:
 
 https://github.com/kunmok/digital_backend_for_128GSPS_ADC
 
-This repository contains a collection of SystemVerilog RTL files for the digital backend implementation of a 128 GS/s ADC-based SerDes receiver.
+This repository contains a collection of SystemVerilog RTL files for the digital backend implementation of the 128 GS/s ADC-based SerDes receiver.
 
 This work is a collaboration between Sunjin and me — we jointly developed the digital backend and DSP architecture, while Sunjin carried out the full RTL implementation and place-and-route (P&R).
 
