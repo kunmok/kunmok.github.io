@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Decision Feedback Equalizer on Kunmo Kim</title>
-    <link>https://kunmok.github.io/tags/decision-feedback-equalizer/</link>
+    <link>http://localhost:1313/tags/decision-feedback-equalizer/</link>
     <description>Recent content in Decision Feedback Equalizer on Kunmo Kim</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://kunmok.github.io/tags/decision-feedback-equalizer/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://localhost:1313/tags/decision-feedback-equalizer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Precursor ISI Cancellation Sliding-Block DFE for High-Speed Wireline Receivers</title>
-      <link>https://kunmok.github.io/papers/sb_dfe/</link>
+      <link>http://localhost:1313/papers/sb_dfe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kunmok.github.io/papers/sb_dfe/</guid>
+      <guid>http://localhost:1313/papers/sb_dfe/</guid>
       <description>In this paper, we propose a feed-forward nonlinear equalizer capable of canceling both pre-cursor and post-cursor ISI in an ADC-based wireline receiver system.</description>
     </item>
     
