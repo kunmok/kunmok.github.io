@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>A 128 GS/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication | Kunmo Kim</title>
+<meta name="keywords" content="Analog-to-Digital conversion (ADC), high-speed design, serdes, wireline, serial link">
+<meta name="description" content="Coming Soon ...">
+<meta name="author" content="Kunmo Kim, Sunjin Choi, Yi-Hsuan Shih, Wahid Rahman, Paul Kwon, Ayan Biswas, Elad Alon, and Ali Niknejad (~2026)">
+<link rel="canonical" href="http://localhost:1313/papers/adc/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ceedb4bfad9c836660a1794574b00e044af05e0e43d78e579aecd60de809fae9.css" integrity="sha256-zu20v62cg2ZgoXlFdLAOBErwXg5D145XmuzWDegJ&#43;uk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/papers/adc/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="A 128 GS/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication" />
+<meta property="og:description" content="Coming Soon ..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/papers/adc/" />
+<meta property="og:image" content="http://localhost:1313/die_photo.jpg" /><meta property="article:section" content="papers" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/die_photo.jpg" />
+<meta name="twitter:title" content="A 128 GS/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication"/>
+<meta name="twitter:description" content="Coming Soon ..."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Papers",
+      "item": "http://localhost:1313/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "A 128 GS/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication",
+      "item": "http://localhost:1313/papers/adc/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A 128 GS/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication",
+  "name": "A 128 GS\/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication",
+  "description": "Coming Soon ...",
+  "keywords": [
+    "Analog-to-Digital conversion (ADC)", "high-speed design", "serdes", "wireline", "serial link"
+  ],
+  "articleBody": "Abstract Coming Soon …\n",
+  "wordCount" : "4",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/die_photo.jpg","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Kunmo Kim, Sunjin Choi, Yi-Hsuan Shih, Wahid Rahman, Paul Kwon, Ayan Biswas, Elad Alon, and Ali Niknejad (~2026)"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/papers/adc/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kunmo Kim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Kunmo Kim">
+             
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Kunmo Kim</a>
+            <div class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/teardowns/" title="Teardowns">
+                    <span>Teardowns</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/others/" title="Others">
+                    <span>Others</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      A 128 GS/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication
+    </h1>
+    <div class="post-meta">Kunmo Kim, Sunjin Choi, Yi-Hsuan Shih, Wahid Rahman, Paul Kwon, Ayan Biswas, Elad Alon, and Ali Niknejad (~2026)
+
+</div>
+  </header> 
+  <div class="post-content"><h5 id="abstract">Abstract</h5>
+<p>Coming Soon &hellip;</p>
+<hr>
+<!-- ##### Download -->
+<!-- + [You can find the paper here.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9495928) -->
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/analog-to-digital-conversion-adc/">Analog-to-Digital Conversion (ADC)</a></li>
+      <li><a href="http://localhost:1313/tags/high-speed-design/">High-Speed Design</a></li>
+      <li><a href="http://localhost:1313/tags/serdes/">SerDes</a></li>
+      <li><a href="http://localhost:1313/tags/wireline/">Wireline</a></li>
+      <li><a href="http://localhost:1313/tags/serial-link/">Serial Link</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    &copy; 2025 Kunmo Kim
+    <span>
+    &middot;  Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

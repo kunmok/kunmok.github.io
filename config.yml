@@ -1,0 +1,96 @@
+baseURL: "https://kunmok.github.io/" 
+title: Kunmo Kim
+pagination:
+  pagerSize: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Publications
+          url: papers/
+          weight: 1
+        - name: Teardowns
+          url: teardowns/
+          weight: 2
+        - name: Others
+          url: others/
+          weight: 3 
+
+params:
+    description: "I am an R&D Hardware Engineer in the Physical Lyaer Products (PLP) group at Broadcom (Irvine, CA), focusing on high-speed optical link transceiver circuit design."
+    author: Name
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Kunmo Kim
+          subtitle: "Hi! I am an R&D Hardware Engineer in the Physical Layer Products (PLP) group at Broadcom (Irvine, CA), specializing in high-speed optical transceiver circuit design. <br>My research interests include digital communication theory, nonlinear equalization, and wireline link modeling and analysis. <br>I received my Ph.D. in Electrical Engineering from University of California, Berkeley in 2025."
+          imageUrl: "kunmo.png"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Kunmo
+          buttons:
+            - name: Publications
+              url: papers/
+            - name: Teardowns
+              url: teardowns/
+            - name: Others
+              url: others/
+    socialIcons:
+        - name: Email
+          url: mailto:kunmok@berkeley.edu
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=Gjlk44MAAAAJ&hl=en
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/kunmo-kim-78806430/
+        - name: GitHub
+          url: https://github.com/kunmok
+        # - name: ORCID
+          # url: https://orcid.org/0000-0002-9417-1075
+      
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Kunmo Kim"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
