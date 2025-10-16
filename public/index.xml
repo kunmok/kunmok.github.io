@@ -52,6 +52,15 @@
     </item>
     
     <item>
+      <title>RTL for 128 GS/s ADC-Based SerDes Rx</title>
+      <link>http://localhost:1313/others/rtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/others/rtl/</guid>
+      <description>RTL used for the digital backend implementation of a 128 GS/s ADC-based SerDes Rx</description>
+    </item>
+    
+    <item>
       <title>Accurate Statistical BER Analysis of DFE Error Propagation in the Presence of Residual ISI</title>
       <link>http://localhost:1313/papers/dfe_analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

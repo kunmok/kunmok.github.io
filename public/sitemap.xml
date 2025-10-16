@@ -12,6 +12,8 @@
   </url><url>
     <loc>http://localhost:1313/papers/sb_dfe/</loc>
   </url><url>
+    <loc>http://localhost:1313/others/rtl/</loc>
+  </url><url>
     <loc>http://localhost:1313/papers/dfe_analysis/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/analog-to-digital-conversion-adc/</loc>
@@ -41,6 +43,8 @@
     <loc>http://localhost:1313/papers/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/pcb/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/rtl/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/serdes/</loc>
   </url><url>
