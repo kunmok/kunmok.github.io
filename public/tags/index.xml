@@ -2,133 +2,133 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Kunmo Kim</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://kunmok.github.io/tags/</link>
     <description>Recent content in Tags on Kunmo Kim</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://kunmok.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analog-to-Digital Conversion (ADC)</title>
-      <link>http://localhost:1313/tags/analog-to-digital-conversion-adc/</link>
+      <link>https://kunmok.github.io/tags/analog-to-digital-conversion-adc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/analog-to-digital-conversion-adc/</guid>
+      <guid>https://kunmok.github.io/tags/analog-to-digital-conversion-adc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decision Feedback Equalizer</title>
-      <link>http://localhost:1313/tags/decision-feedback-equalizer/</link>
+      <link>https://kunmok.github.io/tags/decision-feedback-equalizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/decision-feedback-equalizer/</guid>
+      <guid>https://kunmok.github.io/tags/decision-feedback-equalizer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decision Feedback Equalizer (DFE)</title>
-      <link>http://localhost:1313/tags/decision-feedback-equalizer-dfe/</link>
+      <link>https://kunmok.github.io/tags/decision-feedback-equalizer-dfe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/decision-feedback-equalizer-dfe/</guid>
+      <guid>https://kunmok.github.io/tags/decision-feedback-equalizer-dfe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DFE</title>
-      <link>http://localhost:1313/tags/dfe/</link>
+      <link>https://kunmok.github.io/tags/dfe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/dfe/</guid>
+      <guid>https://kunmok.github.io/tags/dfe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Equalizer</title>
-      <link>http://localhost:1313/tags/equalizer/</link>
+      <link>https://kunmok.github.io/tags/equalizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/equalizer/</guid>
+      <guid>https://kunmok.github.io/tags/equalizer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Error Propagation</title>
-      <link>http://localhost:1313/tags/error-propagation/</link>
+      <link>https://kunmok.github.io/tags/error-propagation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/error-propagation/</guid>
+      <guid>https://kunmok.github.io/tags/error-propagation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>High-Speed Design</title>
-      <link>http://localhost:1313/tags/high-speed-design/</link>
+      <link>https://kunmok.github.io/tags/high-speed-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/high-speed-design/</guid>
+      <guid>https://kunmok.github.io/tags/high-speed-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intersymbol Interference</title>
-      <link>http://localhost:1313/tags/intersymbol-interference/</link>
+      <link>https://kunmok.github.io/tags/intersymbol-interference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/intersymbol-interference/</guid>
+      <guid>https://kunmok.github.io/tags/intersymbol-interference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ISI</title>
-      <link>http://localhost:1313/tags/isi/</link>
+      <link>https://kunmok.github.io/tags/isi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/isi/</guid>
+      <guid>https://kunmok.github.io/tags/isi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markov Chain</title>
-      <link>http://localhost:1313/tags/markov-chain/</link>
+      <link>https://kunmok.github.io/tags/markov-chain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/markov-chain/</guid>
+      <guid>https://kunmok.github.io/tags/markov-chain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SerDes</title>
-      <link>http://localhost:1313/tags/serdes/</link>
+      <link>https://kunmok.github.io/tags/serdes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/serdes/</guid>
+      <guid>https://kunmok.github.io/tags/serdes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serial Link</title>
-      <link>http://localhost:1313/tags/serial-link/</link>
+      <link>https://kunmok.github.io/tags/serial-link/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/serial-link/</guid>
+      <guid>https://kunmok.github.io/tags/serial-link/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistical Analysis</title>
-      <link>http://localhost:1313/tags/statistical-analysis/</link>
+      <link>https://kunmok.github.io/tags/statistical-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/statistical-analysis/</guid>
+      <guid>https://kunmok.github.io/tags/statistical-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wireline</title>
-      <link>http://localhost:1313/tags/wireline/</link>
+      <link>https://kunmok.github.io/tags/wireline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/wireline/</guid>
+      <guid>https://kunmok.github.io/tags/wireline/</guid>
       <description></description>
     </item>
     

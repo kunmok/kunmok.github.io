@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/papers/adc/</loc>
+    <loc>https://kunmok.github.io/papers/adc/</loc>
   </url><url>
-    <loc>http://localhost:1313/teardowns/sampling_scope/</loc>
+    <loc>https://kunmok.github.io/teardowns/sampling_scope/</loc>
   </url><url>
-    <loc>http://localhost:1313/teardowns/active_probe/</loc>
+    <loc>https://kunmok.github.io/teardowns/active_probe/</loc>
   </url><url>
-    <loc>http://localhost:1313/papers/sb_dfe/</loc>
+    <loc>https://kunmok.github.io/papers/sb_dfe/</loc>
   </url><url>
-    <loc>http://localhost:1313/papers/dfe_analysis/</loc>
+    <loc>https://kunmok.github.io/papers/dfe_analysis/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/analog-to-digital-conversion-adc/</loc>
+    <loc>https://kunmok.github.io/tags/analog-to-digital-conversion-adc/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/decision-feedback-equalizer/</loc>
+    <loc>https://kunmok.github.io/tags/decision-feedback-equalizer/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/decision-feedback-equalizer-dfe/</loc>
+    <loc>https://kunmok.github.io/tags/decision-feedback-equalizer-dfe/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/dfe/</loc>
+    <loc>https://kunmok.github.io/tags/dfe/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/equalizer/</loc>
+    <loc>https://kunmok.github.io/tags/equalizer/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/error-propagation/</loc>
+    <loc>https://kunmok.github.io/tags/error-propagation/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/high-speed-design/</loc>
+    <loc>https://kunmok.github.io/tags/high-speed-design/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/intersymbol-interference/</loc>
+    <loc>https://kunmok.github.io/tags/intersymbol-interference/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/isi/</loc>
+    <loc>https://kunmok.github.io/tags/isi/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kunmok.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/markov-chain/</loc>
+    <loc>https://kunmok.github.io/tags/markov-chain/</loc>
   </url><url>
-    <loc>http://localhost:1313/others/</loc>
+    <loc>https://kunmok.github.io/others/</loc>
   </url><url>
-    <loc>http://localhost:1313/others/others/</loc>
+    <loc>https://kunmok.github.io/others/others/</loc>
   </url><url>
-    <loc>http://localhost:1313/papers/</loc>
+    <loc>https://kunmok.github.io/papers/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/serdes/</loc>
+    <loc>https://kunmok.github.io/tags/serdes/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/serial-link/</loc>
+    <loc>https://kunmok.github.io/tags/serial-link/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
+    <loc>https://kunmok.github.io/tags/statistical-analysis/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://kunmok.github.io/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/teardowns/</loc>
+    <loc>https://kunmok.github.io/teardowns/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/wireline/</loc>
+    <loc>https://kunmok.github.io/tags/wireline/</loc>
   </url>
 </urlset>
