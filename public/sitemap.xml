@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/teardowns/sampling_scope/</loc>
+  </url><url>
     <loc>http://localhost:1313/papers/adc/</loc>
   </url><url>
     <loc>http://localhost:1313/others/pcb/</loc>
   </url><url>
-    <loc>http://localhost:1313/teardowns/sampling_scope/</loc>
-  </url><url>
-    <loc>http://localhost:1313/teardowns/active_probe/</loc>
+    <loc>http://localhost:1313/teardowns/active_probe/active_probe/</loc>
   </url><url>
     <loc>http://localhost:1313/papers/sb_dfe/</loc>
   </url><url>
@@ -46,6 +46,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/rtl/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/sampling-scope/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/serdes/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/serial-link/</loc>
@@ -53,6 +55,8 @@
     <loc>http://localhost:1313/tags/statistical-analysis/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/teardowns/</loc>
   </url><url>
     <loc>http://localhost:1313/teardowns/</loc>
   </url><url>

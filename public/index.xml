@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>86118 Sampling Scope Head Module Teardown</title>
+      <link>http://localhost:1313/teardowns/sampling_scope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/teardowns/sampling_scope/</guid>
+      <description>Keysight&amp;#39;s 86118 Sampling Scope Head Module Teardown</description>
+    </item>
+    
+    <item>
       <title>A 128 GS/s 16x-Interleaved 6-Bit ADC Design for Wireline Communication</title>
       <link>http://localhost:1313/papers/adc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -25,20 +34,11 @@
     </item>
     
     <item>
-      <title>Sampling Scope</title>
-      <link>http://localhost:1313/teardowns/sampling_scope/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/teardowns/sampling_scope/</guid>
-      <description>Coming Soon...</description>
-    </item>
-    
-    <item>
       <title>Active Probe</title>
-      <link>http://localhost:1313/teardowns/active_probe/</link>
+      <link>http://localhost:1313/teardowns/active_probe/active_probe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/teardowns/active_probe/</guid>
+      <guid>http://localhost:1313/teardowns/active_probe/active_probe/</guid>
       <description>Coming Soon...</description>
     </item>
     
