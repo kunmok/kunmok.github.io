@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://localhost:1313/papers/adc/</loc>
   </url><url>
+    <loc>http://localhost:1313/papers/ffne/</loc>
+  </url><url>
     <loc>http://localhost:1313/others/pcb/</loc>
   </url><url>
     <loc>http://localhost:1313/teardowns/active_probe/active_probe/</loc>
