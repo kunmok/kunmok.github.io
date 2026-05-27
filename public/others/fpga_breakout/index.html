@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>XEM7310 FPGA Breakout Board | Kunmo Kim</title>
+<meta name="keywords" content="PCB">
+<meta name="description" content="Breakout / interface board for the Opal Kelly XEM7310 FPGA module used to test the 128 GS/s ADC-based SerDes Rx">
+<meta name="author" content="Kunmo Kim">
+<link rel="canonical" href="http://localhost:1313/others/fpga_breakout/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ceedb4bfad9c836660a1794574b00e044af05e0e43d78e579aecd60de809fae9.css" integrity="sha256-zu20v62cg2ZgoXlFdLAOBErwXg5D145XmuzWDegJ&#43;uk=" rel="preload stylesheet" as="style">
+
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="16x16" href="/favicon-16x16.png">
+<link rel="mask-icon" sizes="16x16" href="/favicon-16x16.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/others/fpga_breakout/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="XEM7310 FPGA Breakout Board" />
+<meta property="og:description" content="Breakout / interface board for the Opal Kelly XEM7310 FPGA module used to test the 128 GS/s ADC-based SerDes Rx" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/others/fpga_breakout/" />
+<meta property="og:image" content="http://localhost:1313/fpga_breakout.png" /><meta property="article:section" content="others" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/fpga_breakout.png" />
+<meta name="twitter:title" content="XEM7310 FPGA Breakout Board"/>
+<meta name="twitter:description" content="Breakout / interface board for the Opal Kelly XEM7310 FPGA module used to test the 128 GS/s ADC-based SerDes Rx"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Others",
+      "item": "http://localhost:1313/others/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "XEM7310 FPGA Breakout Board",
+      "item": "http://localhost:1313/others/fpga_breakout/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "XEM7310 FPGA Breakout Board",
+  "name": "XEM7310 FPGA Breakout Board",
+  "description": "Breakout / interface board for the Opal Kelly XEM7310 FPGA module used to test the 128 GS/s ADC-based SerDes Rx",
+  "keywords": [
+    "PCB"
+  ],
+  "articleBody": "Github Link: https://github.com/kunmok/PCB_for_FPGA This is a custom breakout board I designed for the Opal Kelly XEM7310 FPGA module. It bridges the FPGA to my 128 GS/s ADC-based SerDes receiver chip, fanning the FPGA’s scan-chain, analog, and digital signals out to the main test board over a Samtec FFSD ribbon cable.\nThe board generates the FPGA bank I/O supplies locally (1.2 V LVCMOS12 for one bank, 3.3 V LVCMOS33 for the other), level-shifts the power-good flag and the clock-test scan chain, and breaks out SMA clock/data probes, a JTAG header for in-system ILA debug, and an I²C interface. You can find the full schematic, fabrication drawings, and bill of materials (BOM) through the link.\nThis 4-layer board was fabricated and assembled by JLCPCB.\n",
+  "wordCount" : "122",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/fpga_breakout.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Kunmo Kim"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/others/fpga_breakout/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kunmo Kim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Kunmo Kim">
+             
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Kunmo Kim</a>
+            <div class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/teardowns/" title="Teardowns">
+                    <span>Teardowns</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/others/" title="Others">
+                    <span>Others</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      XEM7310 FPGA Breakout Board
+    </h1>
+    <div class="post-meta">Kunmo Kim
+
+</div>
+  </header> 
+  <div class="post-content"><h5 id="github-link">Github Link:</h5>
+<p><a href="https://github.com/kunmok/PCB_for_FPGA" target="_blank">https://github.com/kunmok/PCB_for_FPGA</a>
+</p>
+<p>This is a custom breakout board I designed for the <a href="https://opalkelly.com/products/xem7310/" target="_blank">Opal Kelly XEM7310</a>
+ FPGA module. It bridges the FPGA to my 128 GS/s ADC-based SerDes receiver chip, fanning the FPGA&rsquo;s scan-chain, analog, and digital signals out to the <a href="https://github.com/kunmok/pcb-for-128GSPS-adc-based-serdes" target="_blank">main test board</a>
+ over a Samtec FFSD ribbon cable.</p>
+<p>The board generates the FPGA bank I/O supplies locally (1.2 V LVCMOS12 for one bank, 3.3 V LVCMOS33 for the other), level-shifts the power-good flag and the clock-test scan chain, and breaks out SMA clock/data probes, a JTAG header for in-system ILA debug, and an I²C interface. You can find the full schematic, fabrication drawings, and bill of materials (BOM) through the link.</p>
+<p>This 4-layer board was fabricated and assembled by JLCPCB.</p>
+<hr>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/pcb/">PCB</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    &copy; 2026 Kunmo Kim
+    <span>
+    &middot;  Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>
