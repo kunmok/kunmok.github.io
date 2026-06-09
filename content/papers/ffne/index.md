@@ -20,6 +20,8 @@ cover:
 
 Official publication is coming Soon ...
 
+A preprint is available [here](http://arxiv.org/abs/2606.08313). 
+
 Check out this [GitHub Repository](https://github.com/kunmok/FFNE-stat-and-time-domain-simulator) for statistical- and time-domain analysis. 
 I have released a public GitHub repository accompanying my upcoming arXiv preprint on Feedforward Nonlinear Equalizers (FFNE) for high-speed wireline communication.
 
