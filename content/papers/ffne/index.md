@@ -4,8 +4,8 @@ weight: 1
 #date: 2021-10-01
 tags: ["equalizer", "serdes", "wireline", "serial link"]
 author: ["Kunmo Kim, Paul Kwon, Elad Alon, and Ali Niknejad (~2026)"]
-description: "Coming Soon ... (GitHub Repository is now available)" 
-summary: "Coming Soon ... (GitHub Repository is now available)" 
+description: "Coming Soon ... (GitHub Repository and preprint are now available)" 
+summary: "Coming Soon ... (GitHub Repository and preprint are now available)" 
 cover:
     image: "ffne.png"
     alt: "FFNE"
